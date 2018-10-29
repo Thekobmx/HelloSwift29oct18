@@ -10,11 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
+//    Implicit
+    let nameString = "Doramon"
+    
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        
+//        Assign Value to Lable
+        
+        titleLabel.text = nameString
+        
+        
+    } //Main Function
 
 
-}
+}  //Main Class
 
