@@ -15,12 +15,32 @@ class ViewController: UIViewController {
 //    Implicit
     let nameString = "Doramon"
     
+    //Explicit
+    var inputString: String = ""
+    
+    
+    
     
     @IBOutlet weak var titleLabel: UILabel!
     
     
+    @IBOutlet weak var inputTextField: UITextField!
     
     
+    @IBAction func changeButton(_ sender: Any) {
+        
+        print("You Click Change Button")
+        
+//        Get Value From TextField
+        inputString = inputTextField.text!
+        print("inputString ==> \(inputString)")
+        
+//        Show Value on Label
+        titleLabel.text = inputString
+        
+//        Clear TextField
+        
+    } // Change Function
     
     
     override func viewDidLoad() {
