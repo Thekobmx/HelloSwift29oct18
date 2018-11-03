@@ -40,6 +40,8 @@ class ViewController: UIViewController {
         
 //        Clear TextField
         
+        inputTextField.text = ""
+        
     } // Change Function
     
     

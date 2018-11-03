@@ -17,29 +17,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master UNG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tjm-Vf-J28">
-                                <rect key="frame" x="85.666666666666686" y="194" width="204" height="43"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master KOB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tjm-Vf-J28">
+                                <rect key="frame" x="91" y="194" width="193" height="42"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="35"/>
                                 <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please Type Text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hMF-go-YcW">
-                                <rect key="frame" x="85.666666666666686" y="246" width="204" height="30"/>
+                                <rect key="frame" x="85.666666666666686" y="245" width="204" height="30"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="204" id="g9h-Qj-FVR"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="204" id="g9h-Qj-FVR"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="name"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kI-Gb-xsH">
-                                <rect key="frame" x="85.666666666666686" y="296" width="204" height="33"/>
+                                <rect key="frame" x="85.666666666666686" y="295" width="204" height="33"/>
                                 <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="204" id="OcL-Km-1TW"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="204" id="OcL-Km-1TW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -53,16 +53,16 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="4kI-Gb-xsH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Yi-j4-2A6"/>
-                            <constraint firstItem="hMF-go-YcW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HML-CS-EXL"/>
-                            <constraint firstItem="Tjm-Vf-J28" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gEI-po-9DD"/>
-                            <constraint firstItem="Tjm-Vf-J28" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="jyu-DJ-hiK"/>
+                            <constraint firstItem="4kI-Gb-xsH" firstAttribute="centerX" secondItem="QfS-bH-hfA" secondAttribute="centerX" id="7Yi-j4-2A6"/>
+                            <constraint firstItem="hMF-go-YcW" firstAttribute="centerX" secondItem="QfS-bH-hfA" secondAttribute="centerX" id="HML-CS-EXL"/>
+                            <constraint firstItem="Tjm-Vf-J28" firstAttribute="centerX" secondItem="QfS-bH-hfA" secondAttribute="centerX" id="gEI-po-9DD"/>
+                            <constraint firstItem="Tjm-Vf-J28" firstAttribute="top" secondItem="QfS-bH-hfA" secondAttribute="top" constant="150" id="jyu-DJ-hiK"/>
                             <constraint firstItem="4kI-Gb-xsH" firstAttribute="top" secondItem="hMF-go-YcW" secondAttribute="bottom" constant="20" id="oy1-lM-SgE"/>
                             <constraint firstItem="hMF-go-YcW" firstAttribute="top" secondItem="Tjm-Vf-J28" secondAttribute="bottom" constant="9" id="qfb-SV-6yt"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="QfS-bH-hfA"/>
                     </view>
                     <connections>
                         <outlet property="inputTextField" destination="hMF-go-YcW" id="Zzs-2h-wZV"/>
